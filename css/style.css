@@ -29,7 +29,7 @@ img{
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .site-header {
   display: flex;
@@ -283,14 +283,15 @@ img{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1050px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 71px 24px 29px;
   border-radius: 15px;
   border:none;
+  max-width: 1050px;
+  width: 100%;
+  /* margin-left: 75px; */
 }
 .notification-title{
   font-size: 20px;
@@ -418,4 +419,84 @@ img{
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+
+
+/* site-footer */
+.site-footer{
+  background-color:  #7297EF;
+}
+.site-footer-container{
+  max-width: 998px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.site-footer-middle{
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #CECECE;
+  padding-bottom: 30px;
+}
+.site-footer-title{
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  font-style: normal;
+}
+.site-footer-text{
+  width: 229px;
+  margin: 0;
+  margin-right: auto;
+  color:#fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.site-footer-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-footer-list-item:not(:last-child){
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.site-footer-list-link{
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 20px;
+  padding-bottom: 40px; */
+}
+.socials{
+  width: 161px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.social-list{
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.social-img{
+  display: block;
+}
+.social-list-item:not(:last-child){
+  margin-right: 32px;
 }
