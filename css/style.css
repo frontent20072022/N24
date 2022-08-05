@@ -269,6 +269,7 @@ img{
   display: flex;
   align-items: center;
 }
+
 .about-card-bottom{
   display: flex;
 }
@@ -350,6 +351,10 @@ img{
   margin-top: 0;
   margin-right: 10px;
 }
+.news-left-text{
+  font-size: 20px;
+  line-height: 1.5;
+}
 .news-left-list-items{
   display: flex;
   align-items: center;
@@ -371,6 +376,9 @@ img{
 }
 .news-left-list-item-text{
   margin-bottom: 17px;
+}
+.news-left-news-img{
+  padding: 0;
 }
 
 
