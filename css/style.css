@@ -215,6 +215,13 @@ img{
 .main-content{
   margin-bottom: 60px;
 }
+.main-content-header{
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
 .main-content-list {
   display: flex;
   flex-wrap: wrap;
@@ -231,6 +238,9 @@ img{
   margin-bottom: 10px;
   width: 392px;
   padding: 20px 17px 15px 17px;
+}
+.article-item{
+  margin-bottom: 0;
 }
 .title{
   font-weight: 500;
@@ -266,12 +276,14 @@ img{
   margin-top: auto;
 }
 .card-bottom {
+  /* min-height: 30px; */
   display: flex;
-  align-items: center;
 }
 
 .about-card-bottom{
   display: flex;
+  align-items: center;
+  font-weight: 400px;
 }
 .little-img{
   border-radius: 5px;
@@ -343,9 +355,20 @@ img{
   padding: 0;
   margin-bottom: 0;
 }
+.news-left{
+  border-bottom: 1px solid #D2D2D2;
+}
+.article-news{
+  margin: 0;
+  margin-bottom: 60px;
+}
 .news-img{
   border-radius: 10px;
   margin-right: 15px;
+}
+.card-bottom-text{
+font-size: 14px;
+line-height: 17px;
 }
 .news-left-list{
   margin-top: 0;
@@ -353,7 +376,9 @@ img{
 }
 .news-left-text{
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 46px;
 }
 .news-left-list-items{
   display: flex;
@@ -370,8 +395,8 @@ img{
 }
 
 .news-left-list-item-title{
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 26px;
+  line-height: 36px;
   margin-bottom: 10px;
 }
 .news-left-list-item-text{
@@ -379,6 +404,8 @@ img{
 }
 .news-left-news-img{
   padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 
